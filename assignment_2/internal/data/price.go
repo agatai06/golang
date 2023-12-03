@@ -12,7 +12,7 @@ import (
 
 var ErrInvalidRuntimeFormat = errors.New("invalid price format")
 
-type Price int
+type Price int32
 
 // Implement a MarshalJSON() method on the Runtime type so that it satisfies the
 // json.Marshaler interface. This should return the JSON-encoded value for the movie
